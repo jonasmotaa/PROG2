@@ -1,0 +1,16 @@
+A classe abstrata evita que existam obbjetos do tipo da classe abstrata.
+abstract
+a classe é abstrata quando o nome esta em italico
+public abstract class Pessoa
+Pessoa x = new Pessoa --> IMPOSSIVEL, nao é possivel fazer isso com uma classe abstrata.
+
+Utilidade:
+Declarar variaveis que recebem a referencia a um objeto da classe filha.
+
+Pessoa joao = new PessoaFisica()
+
+Array list -> permite que se inclua elementos nele de forma infinita.
+ArrayList<Pessoa> pessoa = new ArrayList();
+pessoa.add(maria); -> exemplo
+
+getClass().getSimpleName();
